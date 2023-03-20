@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel= "stylesheet" href="style2.css">
+
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fantasy&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"      	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- ICONS -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+</head>
+
+<body background="cv3.gif">
+
+<div class="hero">
+
+</video>
+</div>
+<section>
+        <div class="container">
+            <h1>pomodoro</h1>
+
+            <div class="painel">
+                <p id="work">work</p>
+                <p id="break">break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+                <a id="reset" href="index2.html"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+
+<header>
+        <h1>To Do</h1>
+<div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+    </header>
+    <form action="">
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit"> 
+            <i class="fas fa-plus-circle fa-lg"></i>
+        </button>
+        <br>
+        
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
